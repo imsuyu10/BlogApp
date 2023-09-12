@@ -24,9 +24,15 @@ class AppBarScreen extends StatelessWidget {
             'Profile',
             style: titleText,
           ),
-          Icon(
-            Icons.search,
-            color: mainColor,
+          GestureDetector(
+            onTap: () {
+              Navigator.pushNamed(context, '/blog');
+            },
+            child: Icon(
+              Icons.navigate_next,
+              color: mainColor,
+              size: 35,
+            ),
           )
         ],
       ),

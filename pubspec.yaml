@@ -60,6 +60,8 @@ flutter:
   assets:
     - images/diwali.jpg
     - images/man.jpg
+    - images/sports.jpg
+    - images/women.jpg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

@@ -24,3 +24,12 @@ const TextStyle caption = TextStyle(
   fontSize: 11,
   color: Colors.white,
 );
+
+const TextStyle nameHead =
+    TextStyle(fontFamily: 'Poppins', fontSize: 14, color: Colors.white);
+
+const TextStyle caption2 = TextStyle(
+  fontFamily: 'Poppins',
+  fontSize: 11,
+  color: Colors.white54,
+);

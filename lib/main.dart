@@ -1,3 +1,4 @@
+import 'package:blog_app/blog.dart';
 import 'package:blog_app/widgets/mystyle.dart';
 import 'package:flutter/material.dart';
 import 'package:blog_app/widgets/profile.dart';
@@ -15,6 +16,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+      routes: {'/blog': (context) => BlogScreen()},
       home: Scaffold(
         backgroundColor: mainColor,
         body: ListView(
